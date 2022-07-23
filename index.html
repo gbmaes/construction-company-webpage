@@ -10,6 +10,7 @@
 </head>
 <body>
     <body>
+        <script src="./script.js"></script>
 
         <header class="home-hero" role="banner">
             <video autoplay="" id="heroVideo" loop="" muted="" poster="">
@@ -20,7 +21,7 @@
             <div class="container d-flex flex-row">
                 <div class="row">
                     <div class="col-lg-12 d-flex flex-column justify-content-center text-white py-md-5 text-container">
-                        <div class="img"><img class="logo" src="./assets/redmore-new-logo-removebg-preview.png" alt=""><span class="logo-text">Building Services</span></div>
+                        <div class="img--logo"><img class="logo" src="./assets/redmore-new-logo-removebg-preview.png" alt=""><span class="logo-text">Building Services</span></div>
                         <h2 class="display-4 mb-0">Meet your new<span class="d-block font-weight-bold">dream house</span></h2>
                         <p class="lead my-4">A place to call home</p>	
                             <a type="button" class="btn btn-outline-light w-max mt-2 first" href="#" tabindex="0" onclick="smoothScroll(document.getElementById('second'))">Tour Our Services</a>
@@ -31,58 +32,122 @@
 
     <section>
     
-                <div class="second" id="second">
+                <div class="second main--image" id="second">
                     <div>
                     <!--<img class="second-bg" src="./assets/wallpaperflare.com_wallpaper.jpg" alt="">-->
                 </div>
-                    
-                <div class="" id="">
-                    
-                    <h1>Our services:</h1>
-                        
-                        
-                    <div class="columns">
-                    
-                        <div>
-                            <button>Carpentry</button>
-                        </div>
-                        <div>
-                            <button>Upvc</button>
-                        </div>
-                        <div>
-                            <button>Plastering</button>
-                        </div>
-                        <div>
-                            <button>Fencing</button>   
-                        </div>
-                        <div>
-                            <button>Decking</button>
-                        </div>
-                        <div>
-                           <button>Electrics</button>
-                        </div>
 
-                        
-                </div>
+                <h1>Our services:</h1>
                     
-                    </div>
-                
-            
-           
-            
+            <!--<article class="main--content">-->
+                    <!--<div class="columns">-->
+                        <!--image card layout start-->
+                        <div class="container__card">
+                            <!--image row  start-->
+                            <!--<button>Carpentry</button>-->
+                            <div class="row__card">
+                                <!--image card start-->
+                                <div class="image">
+                                <img src="./assets/carpentry.jpg" alt="">
+                                <div class="details">
+                                    <h2>Carpentry</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <div class="more">
+                                            <a href="#" class="read-more">Request a <span>quote</span></a>
+                                        </div>
+                                    </div>
+                        </div>
+        <!--image card end-->
+        <!--image card start-->
+        <div class="image">
+          <img src="./assets/upvc.jpg" alt="">
+          <div class="details">
+            <h2>UPVC</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="more">
+                <a href="#" class="read-more">Request a <span>quote</span></a>
+              
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+        <!--image card start-->
+        <div class="image">
+          <img src="./assets/plastering.jpg" alt="">
+          <div class="details">
+            <h2>Plastering</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="more">
+                <a href="#" class="read-more">Request a <span>quote</span></a>
+              
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+      
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row__card">
+        <!--image card start-->
+        <div class="image">
+          <img src="./assets/fencing2.jpg" alt="">
+          <div class="details">
+            <h2>Fencing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="more">
+                <a href="#" class="read-more">Request a <span>quote</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+        <!--image card start-->
+        <div class="image">
+          <img src="./assets/decking.jpg" alt="">
+          <div class="details">
+            <h2>Decking</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="more">
+                <a href="#" class="read-more">Request a <span>quote</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+        <!--image card start-->
+        <div class="image">
+          <img src="./assets/electric.jpg" alt="">
+          <div class="details">
+            <h2>Electrics</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="more">
+              <a href="#"  id="request__quote" class="read-more">Request a <span>quote</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+      </div>
+      <!--image row end-->
+    <!--image card layout end--> 
+    </section>
+    <section class="form-section third_bg" id="form">
+        contact
+        <!--contact form-->
+        <main class="container__form" style="width:500px;float:right;text-align:left">
+            <form id="form">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"> <br>
+                <label for="email">Email address:</label><br>
+                <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> <br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject"> <br>
+                <label for="message">Message:</label><br>
+                <textarea name="comment[body]" rows="1" cols="50" wrap="physical" id="message"></textarea> <br>
+                <button id="send" onclick="sendEmail()">Send</button>
+            </form>
+            </main>
         
-        
-
-            <!--<h1 style="font-size:50px">I am John Doe</h1>
-            <p>And I'm a Photographer</p>
-            <button>Hire me</button>
-         
-        
-        <p>Page Content..</p>-->
-        
-
-
-        <script src="./script.js"></script>
+          
     </section>
 </body>
 </html>
