@@ -23,6 +23,8 @@ window.smoothScroll = function(target) {
 
     //scroll to form
 
+    
+
     /*var firstsec = document.getElementById('request__quote');
     var secondsec = document.getElementById('form');
     var lastScrollTop = 0;
