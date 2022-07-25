@@ -25,30 +25,6 @@ window.smoothScroll = function (target) {
 
 
 
-/*var firstsec = document.getElementById('request__quote');
-var secondsec = document.getElementById('form');
-var lastScrollTop = 0;
-window.onscroll = function(){
-   var st = window.pageYOffset || document.documentElement.scrollTop; 
-   if (st > lastScrollTop){
-      secondsec.scrollIntoView({behavior: "smooth"});
-   } else {
-      firstsec.scrollIntoView({behavior: "smooth"});
-   }
-   lastScrollTop = st <= 0 ? 0 : st; 
-} */
-
-/*function scrollToTargetAdjusted(){
-    var element = document.getElementById('form');
-    var headerOffset = 45;
-    var elementPosition = element.getBoundingClientRect().top;
-    var offsetPosition = elementPosition - headerOffset;
- 
-    window.scrollTo({
-         top: offsetPosition,
-         behavior: "smooth"
-    });
-}*/
 
 /*contact form*/
 function sendEmail() {

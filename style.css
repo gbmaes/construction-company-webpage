@@ -238,7 +238,7 @@ button {
    }
 }*/
 
-/*copy from condingsnow*/
+/*cards*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
 
 * {
@@ -385,6 +385,10 @@ button {
     font-size: 18px;
   }
 }
+
+/*contact section*/
+
+
 
 /*contact form*/
 .container__form {
