@@ -23,8 +23,7 @@ window.smoothScroll = function (target) {
 
 //scroll to form
 
-
-
+  
 
 /*contact form*/
 function sendEmail() {
